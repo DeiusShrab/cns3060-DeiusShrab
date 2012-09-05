@@ -1,4 +1,5 @@
-cns3060-DeiusShrab
-==================
+Jacob Christensen
+==========
 
-This is the private repository for DeiusShrab for 3060
+CS3060-601
+zratsewk@gmail.com
