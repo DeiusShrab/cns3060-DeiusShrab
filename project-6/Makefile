@@ -1,11 +1,23 @@
-all: threads
+all: parta partb partc partd
 
-run: threads
-	./threads
+run: partd
+	./partd
 
-threads: threads.c
-	gcc threads.c -o threads
+parta: parta.c
+	gcc parta.c -o parta -lpthread
+	
+partb: partb.c
+	gcc partb.c -o partb -lpthread
+	
+partc: partc.c
+	gcc partc.c -o partc -lpthread
+	
+partd: partd.c
+	gcc partd.c -o partd -lpthread
 
 clean:
-	rm threads
+	rm parta
+	rm partb
+	rm partc
+	rm partd
 
